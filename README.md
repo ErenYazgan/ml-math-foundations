@@ -16,6 +16,8 @@ Instead of relying solely on black-box libraries, this project bridges the gap b
 
 * **O(1) Eigenvalue Extraction:** Demonstrated how diagonal and triangular matrix structures bypass heavy polynomial computations, allowing for direct eigenvalue extraction to optimize CPU usage on sparse datasets.
 
+* **Complex Space & Weight Initialization (Girko's Circular Law):** Visualized the complex eigenvalue distribution of random matrices to demonstrate the mathematical boundaries of pure computational noise and its direct relation to Exploding/Vanishing Gradients in Deep Neural Networks.
+
 ## Tech Stack
 
 - **Language:** Python
