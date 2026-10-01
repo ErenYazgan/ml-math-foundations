@@ -18,6 +18,8 @@ Instead of relying solely on black-box libraries, this project bridges the gap b
 
 * **Complex Space & Weight Initialization (Girko's Circular Law):** Visualized the complex eigenvalue distribution of random matrices to demonstrate the mathematical boundaries of pure computational noise and its direct relation to Exploding/Vanishing Gradients in Deep Neural Networks.
 
+* **Iterative QR Algorithm (Eigenvalue Engine):** Engineered a custom eigenvalue extraction engine from scratch using the iterative QR algorithm ($A_{k+1} = R_k Q_k$). Bypassed standard black-box functions to demonstrate how industry libraries mutate matrices into Schur form for computational efficiency.
+
 ## Tech Stack
 
 - **Language:** Python
