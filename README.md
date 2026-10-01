@@ -14,6 +14,8 @@ Instead of relying solely on black-box libraries, this project bridges the gap b
 - **Vector Space Mechanics:** Orthogonal projection and decomposing vectors into prediction and residual components (`vector_decomposition.py`).
 - **Dominant Eigenvalue Extraction**: Implemented a CPU-optimized Power Iteration algorithm from scratch in NumPy, bypassing heavy polynomial solving and floating-point overflow issues.
 
+* **O(1) Eigenvalue Extraction:** Demonstrated how diagonal and triangular matrix structures bypass heavy polynomial computations, allowing for direct eigenvalue extraction to optimize CPU usage on sparse datasets.
+
 ## Tech Stack
 
 - **Language:** Python
